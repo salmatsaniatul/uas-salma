@@ -1,0 +1,327 @@
+/* Gunakan font modern */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfcf7;
+  color: #333;
+}
+header { 
+    background: url('assets/images/herocontent.jpg') no-repeat center center/cover; 
+    height: 100vh; 
+    color: white; 
+    position: relative; }
+
+nav {
+  background-color: rgba(0,0,0,0.6);
+  padding: 1em;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  padding: 2em;
+  border-radius: 10px;
+}
+
+/* Navigasi */
+nav {
+  background-color: #4b2c20; /* warna coklat kopi */
+  padding: 1em;
+  position: sticky;
+  top: 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #ffd700; /* efek hover emas */
+}
+
+.two-column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  padding: 3em 2em;
+  background-color: #fff3e6;
+}
+
+.text-column {
+  flex: 1 1 50%;
+  min-width: 300px;
+}
+
+.text-column h2, .text-column h3 {
+  color: #4b2c20;
+}
+
+.text-column ul {
+  padding-left: 1em;
+}
+
+.image-column {
+  flex: 1 1 40%;
+  min-width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-column img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#menu {
+  padding: 3em 2em;
+  background-color: #fdfcf7;
+  text-align: center;
+}
+
+#menu h2 {
+  color: #4b2c20;
+  margin-bottom: 1em;
+}
+
+/* Signature Items */
+.signature-items {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+}
+
+.menu-card {
+  background-color: #fff3e6;
+  padding: 1em;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.menu-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5em;
+}
+
+.menu-card h3 {
+  margin: 0.5em 0 0.2em;
+  color: #4b2c20;
+}
+
+.menu-card p {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Full Menu Table */
+.full-menu table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+.full-menu th, .full-menu td {
+  border: 1px solid #ccc;
+  padding: 0.8em;
+  text-align: left;
+}
+
+.full-menu th {
+  background-color: #f0e6d6;
+  color: #4b2c20;
+}
+
+
+/* Quick Stats */
+#stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+  background-color: #fff3e6;
+}
+#stats div {
+  text-align: center;
+  font-size: 1.2em;
+}
+#stats strong {
+  font-size: 2em;
+  color: #4b2c20;
+}
+
+
+#facilities {
+  padding: 3em 2em;
+  background-color: #fff3e6;
+  text-align: center;
+}
+
+#facilities h2 {
+  color: #4b2c20;
+  margin-bottom: 1em;
+}
+
+.facility-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+.facility-list li {
+  margin: 0.5em 0;
+  font-size: 1.1em;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* Tentang Kami */
+#about {
+  padding: 2em;
+  text-align: center;
+}
+#about h2 {
+  color: #4b2c20;
+}
+
+/* Menu & Fasilitas */
+#menu {
+  padding: 2em;
+  text-align: center;
+}
+#menu img {
+  max-width: 300px;
+  border-radius: 10px;
+  margin: 1em 0;
+}
+
+.reservasi-header {
+  text-align: center;
+  padding: 2em;
+  background-color: #4b2c20;
+  color: white;
+}
+
+#form-reservasi form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 2em;
+}
+
+#form-reservasi label {
+  font-weight: bold;
+}
+
+#form-reservasi input,
+#form-reservasi select,
+#form-reservasi textarea,
+#form-reservasi button {
+  padding: 0.8em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#form-reservasi button {
+  background-color: #4b2c20;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#support, #faq {
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 1em;
+  background-color: #fff3e6;
+  border-radius: 8px;
+}
+
+#contact {
+  padding: 3em 2em;
+  background-color: #fdfcf7;
+  text-align: center;
+}
+
+#contact h2 {
+  color: #4b2c20;
+  margin-bottom: 1em;
+}
+
+.branch {
+  margin-bottom: 2em;
+}
+
+.branch h3 {
+  color: #6b3c2f;
+  margin-bottom: 0.5em;
+}
+
+footer {
+  background-color: #4b2c20;
+  color: white;
+  text-align: center;
+  padding: 2em;
+}
+
+.footer-contact h3 {
+  margin-bottom: 0.5em;
+}
+
+.footer-nav {
+  margin: 1em 0;
+}
+
+.footer-nav a {
+  color: #ffd700;
+  text-decoration: none;
+  margin: 0 0.3em;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.tagline {
+  font-style: italic;
+  margin-top: 0.5em;
+  color: #fff3b0;
+}

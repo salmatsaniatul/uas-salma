@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservasi - Café Digital Nusantara</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="reservasi-header">
+    <h1>Formulir Reservasi</h1>
+    <p>Silakan isi data reservasi Anda di bawah ini</p>
+  </header>
+
+  <main>
+    <section id="form-reservasi">
+      <form>
+        <label>Nama Lengkap:</label>
+        <input type="text" name="nama" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Nomor HP:</label>
+        <input type="tel" name="telepon" required>
+
+        <label>Tanggal Reservasi:</label>
+        <input type="date" name="tanggal" required>
+
+        <label>Waktu Reservasi:</label>
+        <input type="time" name="waktu" required>
+
+        <label>Jumlah Orang:</label>
+        <input type="number" name="jumlah" required>
+
+        <label>Pilih Cabang:</label>
+        <select name="cabang" required>
+          <option value="">-- Pilih Cabang --</option>
+          <option value="tasikmalaya">Tasikmalaya</option>
+          <option value="jakarta">Jakarta</option>
+          <option value="bandung">Bandung</option>
+        </select>
+
+        <label>Permintaan Khusus:</label>
+        <textarea name="pesan" rows="4"></textarea>
+
+        <label>
+          <input type="checkbox" name="konfirmasi" required>
+          Saya menyetujui syarat dan ketentuan reservasi
+        </label>
+
+        <button type="submit">Kirim Reservasi</button>
+      </form>
+    </section>
+
+    <section id="support">
+      <h2>Kontak Bantuan</h2>
+      <p>Email: info@cafedigital.id</p>
+      <p>Telepon: 021-1122-3344</p>
+    </section>
+
+    <section id="faq">
+      <h2>FAQ</h2>
+      <ul>
+        <li><strong>Jam buka:</strong> 07:00 - 22:00 (Jakarta), 10:00 - 23:00 (Bandung)</li>
+        <li><strong>Ubah reservasi:</strong> Hubungi kami minimal 1 jam sebelum waktu reservasi</li>
+        <li><strong>Metode pembayaran:</strong> Di tempat (tunai, QRIS, kartu)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Café Digital Nusantara</p>
+  </footer>
+
+</body>
+</html>
